@@ -8,13 +8,13 @@ import java.util.Map;
 
 public class aaa {
 	public static void main(String[] args) {
-//		List<String> strList = new ArrayList<>();
-//		strList.add("list-a");
-//		strList.add("list-b");
-//		String[] strArray = strList.toArray(new String[strList.size()]);
-//		for (String string : strArray) {
-//			System.out.println(string);
-//		}
+		List<String> strList = new ArrayList<>();
+		strList.add("list-a");
+		strList.add("list-b");
+		String[] strArray = strList.toArray(new String[strList.size()]);
+		for (String string : strArray) {
+			System.out.println(string);
+		}
 //		
 //	    Map<String, Object> map = new HashMap<String, Object>();
 //
