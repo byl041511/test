@@ -7,24 +7,24 @@ public class TestCutString {
 	private static String unicode = "Unicode";
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		String aa = "马里奥·巴德斯库MarioBadescu润唇膏10.4g/凡士林Vaseline润唇膏7.4g/凡士林Vaseline润唇膏7.4g*3/易雅图Yiyatoo润唇膏8.5G/珂诺诗KORRES润唇膏6.2g";
-//		String bb = cutString(aa,50);
-//		System.out.println(bb);
-//		System.out.println(subStrByLength(aa, 50));
-//		System.out.println(subStringByByte(aa, 50));
-//		System.out.println(subStringByByte("111111", 50));
-//		System.out.println(subStringByByte(aa, 50).getBytes("GBK").length);
-//		System.out.println(bb.getBytes("GBK").length);
-//		System.out.println("·".getBytes("GBK").length);
-//		System.out.println("·".getBytes(unicode).length);
-//		System.out.println("·".getBytes("utf-8").length);
-//		System.out.println("a".getBytes("GBK").length);
-//		System.out.println("a".getBytes("utf-8").length);
-//		System.out.println("那".getBytes("GBK").length);
-//		System.out.println("。".getBytes("GBK").length);
-//		System.out.println(subStringByByte("回复大家都", 9));
-//		System.out.println(subStringByByte("回复大家都", 9).getBytes("GBK").length);
-//		System.out.println(cutString("111111", 50));
-//		System.out.println(cutString("111111", 50).getBytes("GBK").length);
+		String bb = cutString(aa,50);
+		System.out.println(bb);
+		System.out.println(subStrByLength(aa, 50));
+		System.out.println(subStringByByte(aa, 50));
+		System.out.println(subStringByByte("111111", 50));
+		System.out.println(subStringByByte(aa, 50).getBytes("GBK").length);
+		System.out.println(bb.getBytes("GBK").length);
+		System.out.println("·".getBytes("GBK").length);
+		System.out.println("·".getBytes(unicode).length);
+		System.out.println("·".getBytes("utf-8").length);
+		System.out.println("a".getBytes("GBK").length);
+		System.out.println("a".getBytes("utf-8").length);
+		System.out.println("那".getBytes("GBK").length);
+		System.out.println("。".getBytes("GBK").length);
+		System.out.println(subStringByByte("回复大家都", 9));
+		System.out.println(subStringByByte("回复大家都", 9).getBytes("GBK").length);
+		System.out.println(cutString("111111", 50));
+		System.out.println(cutString("111111", 50).getBytes("GBK").length);
 //		
 //
 //		System.out.println("！".getBytes("GBK").length);

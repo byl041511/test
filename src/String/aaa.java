@@ -46,6 +46,7 @@ public class aaa {
 		if ("".equals(partOfMsg.toString())) {
 			System.out.println("1111");
 		}
+		System.out.println("1111");
 	}
 	
 	public static String addZeroForNum(String str, int strLength) {

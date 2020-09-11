@@ -1,10 +1,35 @@
-# Created by .ignore support plugin (hsz.mobi)
-.idea
-*.iml
-*.class
-.classpath
+# Eclipse
 .project
-.properties
-.settings
-/.settings/
-.gitignore
+.classpath
+.settings/
+
+# Maven
+target/
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+.factorypath
+
+# Gradle
+.gradle/
+build/
+
+#IDEA
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+.jython_cache/
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+/bin/
